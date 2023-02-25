@@ -1,1 +1,0 @@
-{"name":"Local: sort_stack","url":"d:\\code library\\sort_stack.cpp","tests":[{"id":1676819116434,"input":"5\n11 2 32 3 41","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code library\\sort_stack.cpp","group":"local","local":true}
