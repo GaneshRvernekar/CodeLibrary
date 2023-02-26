@@ -1,19 +1,22 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+int n;
 
 bool helper(vector<int> &stones, int k, int ind)
 {
-
-    if (ind >= stones.size())
+    
+    if (ind >= n)
     {
         return false;
     }
 
-    if (ind == stones.size() - 1)
+    if (ind == n - 1)
     {
         return true;
     }
+
+    cout<<k<<endl;
 
     bool ans = false;
 
@@ -31,10 +34,11 @@ bool helper(vector<int> &stones, int k, int ind)
 
     return ans;
 }
+
 int main()
 {
 
-    int n;
+    
     cin >> n;
     vector<int> stones;
 
@@ -45,5 +49,7 @@ int main()
         stones.push_back(a);
     }
 
-    cout<<helper(stones, 1, 0);
+    cout<<helper(stones, 1, 1);
+    cout<<helper(stones, 2, 1);
+    cout<<helper(stones, 0, 1);
 }
