@@ -4,7 +4,7 @@ using namespace std;
 
 int n;
 vector<int> tree(100005);
-vector<int> vec(n);
+vector<int> vec;
 
 void segmentes_tree(int ind,int low,int high)
 {
@@ -40,11 +40,11 @@ int main()
 {
     cin>>n;
 
-    vector<int> vec(n,0);
-
     for(int i=0;i<n;i++)
     {
-        cin>>vec[i];
+        int a;
+        cin>>a;
+        vec.push_back(a);
     }
 
     segmentes_tree(0,0,n-1);

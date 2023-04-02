@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp",
+        "memory_resource": "cpp",
+        "scoped_allocator": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp"
     }
 }
